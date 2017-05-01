@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/main.cpp
+/Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/NumberConverter.cpp
 iostream
 -
+cstdlib
+-
+string
+-
 cmath
+-
+algorithm
 -
 

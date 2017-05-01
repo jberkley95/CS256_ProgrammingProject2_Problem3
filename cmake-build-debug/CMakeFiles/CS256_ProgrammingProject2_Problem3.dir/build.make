@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3
+CMAKE_SOURCE_DIR = /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/depend.make
@@ -57,41 +57,41 @@ include CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/flags.make
 
-CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o: CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/flags.make
-CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o -c /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/main.cpp
+CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o: CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/flags.make
+CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o: ../NumberConverter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o -c /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/NumberConverter.cpp
 
-CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/main.cpp > CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.i
+CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/NumberConverter.cpp > CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.i
 
-CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/main.cpp -o CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.s
+CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/NumberConverter.cpp -o CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.s
 
-CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o.requires:
+CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o.requires:
 
-.PHONY : CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o.requires
 
-CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o.provides: CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build.make CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o.provides
+CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o.provides: CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build.make CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o.provides.build
+.PHONY : CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o.provides
 
-CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o.provides.build: CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o
+CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o.provides.build: CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o
 
 
 # Object files for target CS256_ProgrammingProject2_Problem3
 CS256_ProgrammingProject2_Problem3_OBJECTS = \
-"CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o"
+"CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o"
 
 # External object files for target CS256_ProgrammingProject2_Problem3
 CS256_ProgrammingProject2_Problem3_EXTERNAL_OBJECTS =
 
-CS256_ProgrammingProject2_Problem3: CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o
+CS256_ProgrammingProject2_Problem3: CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o
 CS256_ProgrammingProject2_Problem3: CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build.make
 CS256_ProgrammingProject2_Problem3: CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CS256_ProgrammingProject2_Problem3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CS256_ProgrammingProject2_Problem3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +99,7 @@ CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build: CS256_ProgrammingProjec
 
 .PHONY : CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build
 
-CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/requires: CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o.requires
+CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/requires: CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o.requires
 
 .PHONY : CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/requires
 
@@ -108,6 +108,6 @@ CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/clean:
 .PHONY : CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/clean
 
 CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/depend:
-	cd /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3 /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3 /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug/CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3 /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3 /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug/CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/depend
 

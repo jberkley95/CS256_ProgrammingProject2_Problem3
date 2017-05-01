@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o"
+  "CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o"
   "CS256_ProgrammingProject2_Problem3.pdb"
   "CS256_ProgrammingProject2_Problem3"
 )

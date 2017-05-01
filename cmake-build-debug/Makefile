@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3
+CMAKE_SOURCE_DIR = /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug/CMakeFiles /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug/CMakeFiles /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/johnberkley/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jberkley_hackintosh/CLionProjects/CS256_ProgrammingProject2_Problem3/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ CS256_ProgrammingProject2_Problem3/fast:
 	$(MAKE) -f CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build.make CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build
 .PHONY : CS256_ProgrammingProject2_Problem3/fast
 
-main.o: main.cpp.o
+NumberConverter.o: NumberConverter.cpp.o
 
-.PHONY : main.o
+.PHONY : NumberConverter.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build.make CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.o
-.PHONY : main.cpp.o
+NumberConverter.cpp.o:
+	$(MAKE) -f CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build.make CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.o
+.PHONY : NumberConverter.cpp.o
 
-main.i: main.cpp.i
+NumberConverter.i: NumberConverter.cpp.i
 
-.PHONY : main.i
+.PHONY : NumberConverter.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build.make CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.i
-.PHONY : main.cpp.i
+NumberConverter.cpp.i:
+	$(MAKE) -f CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build.make CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.i
+.PHONY : NumberConverter.cpp.i
 
-main.s: main.cpp.s
+NumberConverter.s: NumberConverter.cpp.s
 
-.PHONY : main.s
+.PHONY : NumberConverter.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build.make CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/main.cpp.s
-.PHONY : main.cpp.s
+NumberConverter.cpp.s:
+	$(MAKE) -f CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/build.make CMakeFiles/CS256_ProgrammingProject2_Problem3.dir/NumberConverter.cpp.s
+.PHONY : NumberConverter.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CS256_ProgrammingProject2_Problem3"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... NumberConverter.o"
+	@echo "... NumberConverter.i"
+	@echo "... NumberConverter.s"
 .PHONY : help
 
 
